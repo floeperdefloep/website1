@@ -1,0 +1,97 @@
+p1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+p2{
+  color: rgb(137, 207, 32);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pagecontents{
+  overflow: scroll;
+
+  position: relative;
+  width: 90%;
+  scrollbar-width: none;
+height: 80%;
+top: 20%;
+}
+
+.middle {
+position: absolute;
+left: 25%; 
+text-wrap: wrap;
+height: 100%;
+width: 100%;
+}
+.topbartable1 {
+  border-collapse: collapse;
+  border-style: dashed;
+  border: 3px solid rgb(137, 207, 32);
+}
+.topbar {
+  height: 15%;
+  position: absolute;
+  width: 100%;
+}
+td {
+  padding: 10px;
+  border: 3px solid rgb(137, 207, 32);
+}
+.leftside {
+  position: absolute;
+
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  overflow: auto;
+  scrollbar-width: none;
+}
+b1{
+  color: slateblue;
+  font-family: monospace;
+  font-weight: bold;
+  padding: 1px;
+}
+a{
+  color: rgb(218, 68, 13);
+  font-family: monospace;
+  font-weight: bold;
+  padding: 1px;
+  text-decoration: underline;
+  text-wrap: wrap;
+}
+b3{
+  color: rgb(137, 207, 32);
+  font-family: monospace;
+  font-weight: bold;
+  padding: 1px;
+}
+
+bork_lidl {
+  color: orange;
+  font-family: monospace;
+  text-decoration: underline;
+  position: relative;
+}
+body {
+  background-image: url("bg-body.gif");
+  background-repeat: repeat;
+}
+html{
+  overflow: hidden;
+}
+input{
+  border: 3px solid rgb(137, 207, 32);
+}
+textarea{
+  border: 3px solid rgb(137, 207, 32);
+}
+#myMenu {
+  list-style-type: none;
+}
+border{
+  border: 3px solid rgb(137, 207, 32);
+}
